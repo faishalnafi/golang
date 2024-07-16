@@ -1,12 +1,14 @@
 //"Tugas Akhir Semester 2 | MUCHAMAD KURNIAWAN"
 //12 juni 2024
-package main
-import "fmt"
+// main.go
 
-type Member struct {
-	Id int
-	Nama [2]string
-	Alamat string
-	Point float32
-	Create_at string
+package main
+
+import (
+	"github.com/yourusername/tugasakhir/controllers"
+)
+
+func main() {
+	// Example of calling the controller to get and display student data
+	controllers.GetStudents()
 }
