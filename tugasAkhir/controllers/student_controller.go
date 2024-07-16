@@ -2,13 +2,10 @@
 
 package controllers
 
-import (
-	"github.com/yourusername/tugasakhir/models"
-	"github.com/yourusername/tugasakhir/views"
-)
+import "../models"
 
-func GetStudents() {
-	// In a real application, you would fetch data from the database.
-	students := models.Students
-	views.DisplayStudents(students)
+func GetStudents() interface{} {
+	// In a real application, this function would fetch data from the database
+	// For demonstration, return dummy data from models
+	return models.Students
 }

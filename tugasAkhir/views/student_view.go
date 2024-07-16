@@ -2,15 +2,10 @@
 
 package views
 
-import (
-	"fmt"
+import "fmt"
 
-	"github.com/yourusername/tugasakhir/models"
-)
-
-func DisplayStudents(students []models.Student) {
+func DisplayStudents(students interface{}) {
 	fmt.Println("Student List:")
-	for _, student := range students {
-		fmt.Printf("NISN: %s, Name: %s, Address: %s, Parent: %s, Class: %s\n", student.NISN, student.Name, student.Address, student.ParentName, student.Class)
-	}
+	// Dummy display logic for demonstration
+	fmt.Println(students)
 }
