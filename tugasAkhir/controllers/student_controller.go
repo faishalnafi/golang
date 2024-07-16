@@ -2,10 +2,12 @@
 
 package controllers
 
-import "../models"
+import (
+	"../databases"
+)
 
 func GetStudents() interface{} {
-	// In a real application, this function would fetch data from the database
-	// For demonstration, return dummy data from models
-	return models.Students
+	// Di aplikasi nyata, fungsi ini akan mengambil data dari database
+	// Untuk demonstrasi, ambil data dari fungsi dummy database
+	return databases.GetStudents()
 }

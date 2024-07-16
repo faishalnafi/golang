@@ -1,0 +1,13 @@
+tugasakhir/
+├── controllers/
+│   └── student_controller.go
+├── databases/
+│   └── database.go
+├── models/
+│   └── student.go
+├── nodes/
+│   └── node.go
+├── views/
+│   └── student_view.go
+└── main.go
+└── flow.txt

@@ -2,5 +2,5 @@
 
 package nodes
 
-// Placeholder for node-related operations
-// Define operations related to nodes based on project requirements
+// Placeholder untuk operasi terkait node
+// Tentukan operasi terkait node berdasarkan kebutuhan proyek

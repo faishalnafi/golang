@@ -5,7 +5,7 @@ package views
 import "fmt"
 
 func DisplayStudents(students interface{}) {
-	fmt.Println("Student List:")
-	// Dummy display logic for demonstration
+	fmt.Println("Daftar Siswa:")
+	// Logika tampilan dummy untuk demonstrasi
 	fmt.Println(students)
 }

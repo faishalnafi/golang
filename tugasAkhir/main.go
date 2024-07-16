@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	// Example of calling the controller to get and display student data
+	// Contoh memanggil controller untuk mendapatkan dan menampilkan data siswa
 	students := controllers.GetStudents()
 	views.DisplayStudents(students)
 }
